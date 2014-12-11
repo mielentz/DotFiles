@@ -23,3 +23,6 @@ set hlsearch
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
 set backspace=indent,eol,start
+
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+map <Leader>n :NERDTreeToggle<CR>
